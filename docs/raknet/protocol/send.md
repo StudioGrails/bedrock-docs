@@ -123,13 +123,13 @@ if Ordered
 フラグメントをデータグラムに入れた時のサイズがMTUを超える場合、フラグメントを分割する必要があります。
 
 ```plaintext
-// RakNetHeaderSize = 1 + 3
+// RAKNET_HEADER_SIZE = 1 + 3
 
 // mtu = (OpenConnectionRequest1で計測したMTU)
 // next_split_id = 0
 
 if フラグメントをデータグラムに入れた時のサイズ>MTU
-  let max_size = mtu - RakNetHeaderSize - fragment.get_header_size()
+  let max_size = mtu - RAKNET_HEADER_SIZE - fragment.get_header_size()
   let split_size = fragment.body.length / max_size + 1
 
   let split_index = 0
