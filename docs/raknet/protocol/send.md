@@ -46,6 +46,7 @@ Tick処理は、送信キューに追加されたフラグメントをデータ�
 
 - メッセージデータ: `u8[N]`
 - [信頼性](entire_process#reliability)
+- [優先度](entire_process#priority)
 - 使用するチャンネル: `0-31` (信頼性がSequencedかOrderedの場合のみ)
 
 ```plaintext
