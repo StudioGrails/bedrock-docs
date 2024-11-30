@@ -87,6 +87,10 @@ C: クライアント S: サーバー
 | S -> C | [ConnectionRequestAccepted](communication#connectionrequestaccepted) | |
 | C -> S | [NewIncomingConnection](communication#newincomingconnection) | ここからアプリケーションのパケットを送受信することができる。 |
 
+::: tip アプリケーションのパケット
+Minecraft Bedrock Editionでは、ID`0xfe`のGamePacketというメッセージを送受信することで、ゲーム内のパケットを送受信します。[詳細](communication#gamepacket)
+:::
+
 ## 送受信システム
 
 RakNetの送受信では、データグラムを使用します。データグラムは複数のフラグメントを含んでいることがあります。
