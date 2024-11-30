@@ -10,16 +10,16 @@ hero:
     alt: Logo
   actions:
     - text: RakNetについて学ぶ
-      link: /ja/raknet/intro
+      link: /raknet/intro
 
 features:
   - icon: 🌐
     title: プロトコル
     details: Minecraft Bedrock Editionのプロトコルについての情報
-    link: /ja/protocol/intro
+    link: /protocol/intro
   - icon: 🚀
     title: RakNet
     details: Minecraft Bedrock Editionで使用されているネットワーキングエンジンであるRakNetについての情報
-    link: /ja/raknet/intro
+    link: /raknet/intro
 ---
 
