@@ -5,7 +5,7 @@ export default defineConfig({
   lang: 'ja_JP',
   title: "BedrockDocs",
   description: 'Minecraft Bedrock Edition開発者向けのドキュメント',
-  head: [ ['link', { rel: 'icon', href: '/logo.svg' }] ],
+  head: [ ['link', { rel: 'icon', href: 'logo.svg' }] ],
   
   base: '/bedrock-docs/',
 
