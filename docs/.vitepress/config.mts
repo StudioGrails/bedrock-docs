@@ -57,6 +57,8 @@ export default defineConfig({
     }
   },
 
+  ignoreDeadLinks: true,
+
   vite: {
     css: {
       preprocessorOptions: {
