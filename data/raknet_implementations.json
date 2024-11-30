@@ -1,0 +1,72 @@
+[
+  {
+    "name": "RakLib",
+    "language": "PHP",
+    "repo": "pmmp/RakLib",
+    "stars": 88,
+    "status": 0
+  },
+  {
+    "name": "go-raknet",
+    "language": "Go",
+    "repo": "Sandertv/go-raknet",
+    "stars": 106,
+    "status": 0
+  },
+  {
+    "name": "netty-raknet",
+    "language": "Java",
+    "repo": "yesdog/netty-raknet",
+    "stars": 25,
+    "status": 1
+  },
+  {
+    "name": "JRakNet",
+    "language": "Java",
+    "repo": "whirvis/JRakNet",
+    "stars": 116,
+    "status": 1
+  },
+  {
+    "name": "rust-raknet",
+    "language": "Rust",
+    "repo": "b23r0/rust-raknet",
+    "stars": 226,
+    "status": 0
+  },
+  {
+    "name": "rak-rs",
+    "language": "Rust",
+    "repo": "NetrexMC/RakNet",
+    "stars": 45,
+    "status": 0
+  },
+  {
+    "name": "raknet-node",
+    "language": "Javascript",
+    "repo": "b23r0/raknet-node",
+    "stars": 7,
+    "status": 1
+  },
+  {
+    "name": "node-raknet-native",
+    "language": "Javascript",
+    "repo": "extremeheat/node-raknet-native",
+    "stars": 13,
+    "status": 1
+  },
+  {
+    "name": "PieRakNet",
+    "language": "Python",
+    "repo": "PieMC-Dev/PieRakNet",
+    "stars": 20,
+    "status": 0
+  },
+  {
+    "name": "zig-raknet",
+    "language": "Zig",
+    "repo": "sylvrs/zig-raknet",
+    "stars": 5,
+    "status": 0
+  }
+]
