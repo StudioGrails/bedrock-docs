@@ -107,7 +107,7 @@ if Ordered
 
 #### 主要な変数
 
-- `next_ordering_index`: 32チャンネル全ての次の`ordering_index`を保持する配列
+- `next_ordering_index`: 32チャンネルそれぞれの次の`ordering_index`を保持する配列
 
 #### 処理の流れ
 
