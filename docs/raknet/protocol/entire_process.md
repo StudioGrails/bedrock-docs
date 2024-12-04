@@ -1,6 +1,7 @@
 ---
 mentions:
   - Mirucow
+  - Koyamoti60
 ---
 
 # 全体の処理
@@ -53,6 +54,19 @@ mentions:
 - Reliable: フラグメントが必ず相手に到達することを保証します。具体的には、相手からACKを受信するまで再送を行います。相手に到達することが重要な場合に使用されます。
 - Ordered: 複数のフラグメントが送信した順に相手に到達することを保証します。具体的には、受信側が順番に並べ替えてから処理します。順番通りに処理されることが重要な場合に使用されます。
 - Sequenced: 受信側が最新のフラグメントのみを受け取り、それより古いフラグメントは破棄されます。プレイヤーの移動など、最新の情報のみが必要な場合に使用されます。
+
+### 優先度 {#priority}
+
+優先度は、メッセージの送信順序を決定するための情報です。
+
+| 種類 | 値 | 説明 |
+| --- | --- | --- |
+| IMMEDIATE_PRIORITY | 0 | 最も高い優先度です。優先度がHIGH_PRIORITYのメッセージよりも2倍の頻度で送信されます。また，次の送信間隔を待たずに即座に送信されます。 |
+| HIGH_PRIORITY | 1 | 2番目に高い優先度です。優先度がMEDIUM_PRIORITYのメッセージよりも2倍の頻度で送信されます。 |
+| MEDIUM_PRIORITY | 2 | 3番目に高い優先度です。優先度がLOW_PRIORITYのメッセージよりも2倍の頻度で送信されます。 |
+| LOW_PRIORITY | 3 | 最も低い優先度です。 |
+
+つまり、送信キューにすべての優先度のメッセージが十分に存在する時、LOW_PRIORITYが1つ送信されるまでにIMMEDIATE_PRIORITYが8つ送信されます。
 
 ## コネクション
 
@@ -176,3 +190,8 @@ $$
 
 
 ![](https://mermaid.ink/svg/pako:eNqVVF1PE0EU_SvNPJqWpLulH_tgQuTN6AM0Pmh9WHZXaLBdUrZGbJows0ApH2lDBII8WAJUoNpgJGkwan_MdVv5F96ZobJtWqPzMJk5c-fOPefcTIEYtmkRjSw6umNNpvXZnJ4JvVJS2QAOPRwIhe4HJh487NtP6o6I6wMfT2CQREQufitQkAAfz-49F3Ez4TtsRl6dUXo3JagFOlslr_kO6C6wLaDvwS2B-w1YG9gluOfg1oA2gX0C9xhcF1gL3FNgO97a9s0y7b49Gzyim8DKXnnj5uDE946C7-xdAt0HujKVTPIEqy7QBizTab6nZzg_mZjCg87hFYbKu8V-mj0xhnE1fFwNydVQfJAiIdUHqRKK-BUxUBFg15w5O-FaMOT2hWvB6rdrtyzWO4LwLrjr_lf4bcZ59g6BfgC6DfSCK0OPucKsjLS9yv7P9lHvtI66iJiVEfq3BPhZ1HLd3b3wKi0sARtB6H_KT2njV_u7t1HzM8Ry_icf9tFf80WG5-OWC7bnAjwSKq1zkyt7wDa80lfhfN0r1bvVtaHWIpNhrpphvznmP7brqOb01lY5-WGVoiOdj2hHM5k25mWdnQM0siFz8UW1AfQH0ENgmwMUdKxL-tlDUEiNT7yY2pVXve0RZKnxaQDu9fUIt2QoCZKMlcvoaRO_ECFVijhzVsZKEQ2Xpp6bT5FUtohxet6xp5eyBtGcXN4Kkpydn50j2gv95SLu8gvm3f_zB13Qs09tu29PtAJ5TbRYfCyBIx6PR6JqNKYmgmSJaBFlLKzGovHEuKqoUUUZLwbJG5EgHCSWmXbs3CP53Ylfr_gbqOdNPw)
+
+## 参考
+
+- [信頼性](https://github.com/facebookarchive/RakNet/blob/master/Source/PacketPriority.h#L46)
+- [優先度](https://github.com/facebookarchive/RakNet/blob/master/Source/PacketPriority.h#L21)
