@@ -1,6 +1,7 @@
 ---
 mentions:
   - Mirucow
+  - Koyamoti60
 ---
 
 # 送信

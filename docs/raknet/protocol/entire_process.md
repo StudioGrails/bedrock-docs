@@ -1,6 +1,7 @@
 ---
 mentions:
   - Mirucow
+  - Koyamoti60
 ---
 
 # 全体の処理
@@ -189,3 +190,8 @@ $$
 
 
 ![](https://mermaid.ink/svg/pako:eNqVVF1PE0EU_SvNPJqWpLulH_tgQuTN6AM0Pmh9WHZXaLBdUrZGbJows0ApH2lDBII8WAJUoNpgJGkwan_MdVv5F96ZobJtWqPzMJk5c-fOPefcTIEYtmkRjSw6umNNpvXZnJ4JvVJS2QAOPRwIhe4HJh487NtP6o6I6wMfT2CQREQufitQkAAfz-49F3Ez4TtsRl6dUXo3JagFOlslr_kO6C6wLaDvwS2B-w1YG9gluOfg1oA2gX0C9xhcF1gL3FNgO97a9s0y7b49Gzyim8DKXnnj5uDE946C7-xdAt0HujKVTPIEqy7QBizTab6nZzg_mZjCg87hFYbKu8V-mj0xhnE1fFwNydVQfJAiIdUHqRKK-BUxUBFg15w5O-FaMOT2hWvB6rdrtyzWO4LwLrjr_lf4bcZ59g6BfgC6DfSCK0OPucKsjLS9yv7P9lHvtI66iJiVEfq3BPhZ1HLd3b3wKi0sARtB6H_KT2njV_u7t1HzM8Ry_icf9tFf80WG5-OWC7bnAjwSKq1zkyt7wDa80lfhfN0r1bvVtaHWIpNhrpphvznmP7brqOb01lY5-WGVoiOdj2hHM5k25mWdnQM0siFz8UW1AfQH0ENgmwMUdKxL-tlDUEiNT7yY2pVXve0RZKnxaQDu9fUIt2QoCZKMlcvoaRO_ECFVijhzVsZKEQ2Xpp6bT5FUtohxet6xp5eyBtGcXN4Kkpydn50j2gv95SLu8gvm3f_zB13Qs09tu29PtAJ5TbRYfCyBIx6PR6JqNKYmgmSJaBFlLKzGovHEuKqoUUUZLwbJG5EgHCSWmXbs3CP53Ylfr_gbqOdNPw)
+
+## 参考
+
+- [信頼性](https://github.com/facebookarchive/RakNet/blob/master/Source/PacketPriority.h#L46)
+- [優先度](https://github.com/facebookarchive/RakNet/blob/master/Source/PacketPriority.h#L21)
