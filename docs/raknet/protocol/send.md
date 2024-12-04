@@ -217,7 +217,7 @@ Tick処理では主に以下の3つの処理を行います。
 3. 送信キュー内のフラグメントの送信
 
 ::: tip
-Tick処理の間隔はアプリケーションによって異なりますが、Minecraft Bedrock Editionでは50msごとにTick処理を行っています。
+Tick処理の間隔はアプリケーションによって異なりますが、RakNetデフォルトでは10ms、Minecraft Bedrock Editionでは50msごとにTick処理を行っています。
 :::
 
 ### 全体の流れ
