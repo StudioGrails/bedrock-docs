@@ -3,14 +3,14 @@
     "name": "RakLib",
     "language": "PHP",
     "repo": "pmmp/RakLib",
-    "stars": 88,
+    "stars": 89,
     "status": 0
   },
   {
     "name": "go-raknet",
     "language": "Go",
     "repo": "Sandertv/go-raknet",
-    "stars": 110,
+    "stars": 112,
     "status": 0
   },
   {
@@ -59,7 +59,7 @@
     "name": "PieRakNet",
     "language": "Python",
     "repo": "PieMC-Dev/PieRakNet",
-    "stars": 20,
+    "stars": 21,
     "status": 0
   },
   {
