@@ -3,21 +3,21 @@
     "name": "RakLib",
     "language": "PHP",
     "repo": "pmmp/RakLib",
-    "stars": 92,
+    "stars": 93,
     "status": 0
   },
   {
     "name": "go-raknet",
     "language": "Go",
     "repo": "Sandertv/go-raknet",
-    "stars": 115,
+    "stars": 116,
     "status": 0
   },
   {
     "name": "netty-raknet",
     "language": "Java",
     "repo": "yesdog/netty-raknet",
-    "stars": 25,
+    "stars": 24,
     "status": 1
   },
   {
