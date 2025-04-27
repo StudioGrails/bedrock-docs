@@ -3,14 +3,14 @@
     "name": "RakLib",
     "language": "PHP",
     "repo": "pmmp/RakLib",
-    "stars": 93,
+    "stars": 94,
     "status": 0
   },
   {
     "name": "go-raknet",
     "language": "Go",
     "repo": "Sandertv/go-raknet",
-    "stars": 116,
+    "stars": 117,
     "status": 0
   },
   {
@@ -38,7 +38,7 @@
     "name": "rak-rs",
     "language": "Rust",
     "repo": "NetrexMC/RakNet",
-    "stars": 46,
+    "stars": 47,
     "status": 0
   },
   {
